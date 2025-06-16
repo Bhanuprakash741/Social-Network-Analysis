@@ -61,7 +61,7 @@ Splits: 70 % train / 15 % val / 15 % test.
 
 | GCN | GAT | HetGNN |
 |---------------|--------------------|------------------|
-| ![GCN](docs/GCN.png) | ![GAT](docs/GAT.png) | ![HetGNN](docs/HetGNN.png) |
+| ![GCN](doc/GCN.png) | ![GAT](doc/GAT.png) | ![HetGNN](doc/HetGNN.png) |
 
 Additional visuals:  
 * `docs/tsne_gat.png` – GAT embedding clusters  
