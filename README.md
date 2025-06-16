@@ -63,23 +63,4 @@ Splits: 70 % train / 15 % val / 15 % test.
 |---------------|--------------------|------------------|
 | ![GCN](doc/GCN.png) | ![GAT](doc/GAT.png) | ![HetGNN](doc/HetGNN.png) |
 
-Additional visuals:  
-* `docs/tsne_gat.png` – GAT embedding clusters  
-* `docs/tsne_hetgnn.png` – HetGNN heterogeneous embedding map
-
----
-
-## 🗂️ Repository Structure
-```text
-data/                 # raw & processed graphs
-src/
-├── dataset.py        # loaders & preprocessors
-├── models/           # gcn.py, gat.py, hetgnn.py
-├── train.py          # training loop
-└── evaluate.py       # metrics & plots
-configs/              # YAML experiment configs
-docs/                 # result images for README
-notebooks/            # exploratory notebooks
-requirements.txt
-README.md
 
