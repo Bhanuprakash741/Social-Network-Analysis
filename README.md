@@ -57,11 +57,11 @@ Splits: 70 % train / 15 % val / 15 % test.
 ---
 
 ### 📊 Training & Embedding Visuals
-*(export your figures as PNGs to `docs/` and keep filenames below)*
 
-| Training Loss | Validation Accuracy | t-SNE Embeddings |
+
+| GCN | GAT | HetGNN |
 |---------------|--------------------|------------------|
-| ![loss](docs/loss_curve.png) | ![val_acc](docs/val_accuracy.png) | ![tsne](docs/tsne_gcn.png) |
+| ![GCN](docs/GCN.png) | ![GAT](docs/GAT.png) | ![HetGNN](docs/HetGNN.png) |
 
 Additional visuals:  
 * `docs/tsne_gat.png` – GAT embedding clusters  
